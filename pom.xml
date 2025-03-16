@@ -28,6 +28,7 @@
 	</scm>
 	<properties>
 		<java.version>21</java.version>
+		<coverage.minimum>0.35</coverage.minimum>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -105,7 +106,7 @@
 										<limit>
 											<counter>INSTRUCTION</counter>
 											<value>COVEREDRATIO</value>
-											<minimum>0.35</minimum> <!-- 55% Coverage -->
+											<minimum>${coverage.minimum}</minimum> <!-- 55% Coverage -->
 										</limit>
 									</limits>
 								</rule>
